@@ -95,7 +95,6 @@ html {
 
 @media screen and (max-width: 776px) {
   .pie-pagina .grupo1 {
-    display: block;
     align-items: center;
   }
 }
@@ -179,6 +178,14 @@ h3 {
   list-style-type: none;
   background-image: linear-gradient(rgb(241, 243, 247), rgb(182, 182, 178));
   text-align: center;
+}
+@media screen {
+  .lista {
+    max-width: 776px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+  }
 }
 
 .contacto {
